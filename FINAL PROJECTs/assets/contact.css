@@ -1,0 +1,61 @@
+body {
+    background: url('../images/contact.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.contact-box {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+form {
+    margin: 35px;
+}
+
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.email {
+    width: 200px;
+}
+
+.textarea {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 0 0 0 #999;
+    transform: translateY(-10px);
+}
+
+.btn {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 #999;
+    transition: 0.5s ease;
+}
